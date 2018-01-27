@@ -2,16 +2,16 @@
 int main() 
 {
    char b;
-   printf("enter the aphabet to check");
+   printf("enter the alphabet to check");
    scanf("%c",&b);
    if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u')
    {
-       printf("enter number is vowel");
+       printf("enter alphabet is vowel");
        
    }
    else
    {
-       printf("enter number is consonant");
+       printf("enter alphabet is consonant");
    }
 }
 
