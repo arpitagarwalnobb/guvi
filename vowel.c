@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main() 
 {
-   char b;
-   printf("enter the alphabet to check");
-   scanf("%c",&b);
-   if(b=='a' || b=='e' || b=='i' || b=='o' || b=='u')
+   int b;
+   printf("enter the number to check");
+   scanf("%d",&b);
+   if(b%2==0)
    {
-       printf("enter alphabet is vowel");
+       printf("enter number is even");
        
    }
    else
    {
-       printf("enter alphabet is consonant");
+       printf("enter number is odd");
    }
 }
 
